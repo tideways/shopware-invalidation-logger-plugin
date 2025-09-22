@@ -4,6 +4,7 @@ namespace TidewaysInvalidateLog;
 
 use Shopware\Core\Framework\Adapter\Cache\InvalidatorStorage\AbstractInvalidatorStorage;
 use Psr\Log\LoggerInterface;
+use Tideways\Profiler;
 
 class LoggingInvalidatorStorage extends AbstractInvalidatorStorage
 {
